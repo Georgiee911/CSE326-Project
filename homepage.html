@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Travel</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.travel-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.travel-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: calc(30% - 30px);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.travel-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.travel-card h2 {
+    margin: 10px 0;
+}
+
+.travel-card p {
+    padding: 0 15px 15px;
+}
+
+.travel-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #007bff;
+    color: white;
+    position: relative;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Explore Different Types of Travel</h1>
+        <nav>
+            <ul>
+                
+                <li><a href="destinationshp.html">Destinations</a></li>
+                <li><a href="traveltips.html">Travel Tips</a></li>
+                <li><a href="travelbloghp.html">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="travel-types">
+        <div class="travel-card">
+            <img src="pexels-pixabay-53213.jpg" alt="Adventure Travel">
+            <h2>Adventure Travel</h2>
+            <p>Experience the thrill of outdoor adventures like hiking, rock climbing, and more!</p>
+        </div>
+        <div class="travel-card">
+            <img src="pexels-vince-2363807.jpg" alt="Luxury Travel">
+            <h2>Luxury Travel</h2>
+            <p>Indulge in lavish accommodations and exquisite experiences around the world.</p>
+        </div>
+        <div class="travel-card">
+            <img src="pexels-sudipta-1603650.jpg" alt="Cultural Travel">
+            <h2>Cultural Travel</h2>
+            <p>Dive into local traditions, history, and the unique lifestyles of different cultures.</p>
+        </div>
+        <div class="travel-card">
+            <img src="pexels-yohan-538953611-29097416.jpg" alt="Beach Travel">
+            <h2>Beach Travel</h2>
+            <p>Relax on beautiful shores and enjoy sun, sand, and sea.</p>
+        </div>
+        <div class="travel-card">
+            <img src="pexels-jessie-crettenden-2084198-3714900.jpg" alt="Road Trip">
+            <h2>Road Trip</h2>
+            <p>Explore new places at your own pace with an unforgettable road trip adventure.</p>
+        </div>
+        <div class="travel-card">
+            <img src="pexels-clement-proust-363898785-29056120.jpg" alt="Eco Travel">
+            <h2>Eco Travel</h2>
+            <p>Travel sustainably while enjoying nature and contributing to conservation efforts.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel-V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
